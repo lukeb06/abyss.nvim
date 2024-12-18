@@ -51,12 +51,12 @@ function M.get(user_opts)
     markdownCodeBlock = { fg = colors.yellow, italic = user_opts.italic },
 
     -- Editor --
-    ColorColumn = { fg = colors.none, bg = colors.darkred },
+    ColorColumn = { fg = colors.none, bg = colors.bg_alt },
     Conceal = { fg = colors.fg, bg = colors.none },
 
-    Cursor = { fg = colors.midblue, bg = colors.darkred, reverse = true },
+    Cursor = { fg = colors.midblue, bg = colors.bg_alt, reverse = true },
     lCursor = { link = "Cursor" },
-    CursorIM = { fg = colors.lowgrey, bg = colors.darkred, reverse = true },
+    CursorIM = { fg = colors.lowgrey, bg = colors.bg_alt, reverse = true },
     CursorLine = { fg = colors.none, bg = colors.darkblue },
     CursorLineNr = { fg = colors.lightgrey, bg = colors.darkblue, bold = true },
     CursorColumn = { link = "CursorLine" },
